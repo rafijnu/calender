@@ -1,0 +1,50 @@
+body{
+      margin:0;
+}
+
+h1{
+      text-align: center;
+      margin-bottom: 50px;
+}
+.calender
+{
+      height: 500px;
+      display: grid;
+      grid-template-columns: repeat(7,1fr);
+      grid-gap:1em;
+      
+}
+
+.date
+{
+      background-color: lightgray;
+      font-size:2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius:5px;
+      
+
+}
+
+.others-date
+{
+      background-color:lightskyblue;
+}
+
+.day
+{
+      background-color: lightgoldenrodyellow;
+      font-size:1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius:5px;
+}
+
+.date:hover,
+.others-date:hover,
+.day:hover
+{
+      background-color: rgb(247, 143, 7);
+}
